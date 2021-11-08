@@ -1,0 +1,15 @@
+.header {
+    display: none;
+}
+
+.main__content {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.thanks__item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

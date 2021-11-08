@@ -1,0 +1,141 @@
+h1 {
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+textarea,
+input {
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* フォームアイテム */
+.main__content {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.form__item {
+    width: 100%;
+}
+
+.required__title:after {
+    content: "※";
+    color: #f00;
+    padding-left: 2px;
+}
+
+.input__item {
+    border-radius: 4px;
+    padding: 10px 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textarea__item {
+    resize: none;
+    border-radius: 4px;
+    padding: 10px 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.placeholder {
+    padding: 10px 20px;
+    color: #aaa;
+}
+
+.err__text {
+    padding-top: 5px;
+    color: #f00;
+}
+
+/* ボタン */
+.button__item {
+    display: block;
+    width: 130px;
+    margin: 30px auto 0;
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button__item:hover,
+.button__reset:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.button__reset {
+    display: block;
+    margin: 5px auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+/* ラジオボタン */
+.radio__label {
+    margin-right: 30px;
+}
+
+input[type="radio"] {
+    -moz-opacity: 0;
+    opacity: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+input[type="radio"] + .radio__icon {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    margin: -0.2em 0.5em 0 0;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+
+input[type="radio"]:focus + .radio__icon {
+    border-color: #000;
+}
+
+input[type="radio"]:checked + .radio__icon:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+}

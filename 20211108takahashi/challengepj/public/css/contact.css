@@ -1,0 +1,46 @@
+th {
+    width: 20%;
+    position: relative;
+}
+
+th label {
+    position: absolute;
+    top: 10%;
+}
+
+.input__item {
+    border: 1px solid #aaa;
+}
+
+.textarea__item {
+    border: 1px solid #aaa;
+}
+
+/* フォームアイテム：名前 */
+.name__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input__item__name {
+    width: 46%;
+}
+
+/* フォームアイテム：性別 */
+.gender__item {
+    padding-bottom: 36px;
+}
+
+/* フォームアイテム：郵便番号 */
+.input__postcode {
+    display: flex;
+    align-items: center;
+}
+
+.postcode__mark {
+    padding: 0 10px;
+}
+
+.placeholder__postcode {
+    padding-left: 70px;
+}

@@ -1,0 +1,23 @@
+th {
+    width: 20%;
+    position: relative;
+}
+
+th label {
+    position: absolute;
+    top: 10%;
+}
+
+.input__item,
+.textarea__item {
+    border: none;
+}
+
+.input__item:focus,
+.textarea__item:focus {
+    outline: none;
+}
+
+.input__item {
+    margin-bottom: 40px;
+}
